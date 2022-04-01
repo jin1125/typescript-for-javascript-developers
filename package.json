@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jin1125/typescript-for-javascript-developers#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "typescript": "^4.6.3"
   },
   "devDependencies": {
