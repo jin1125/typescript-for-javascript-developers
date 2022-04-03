@@ -34,3 +34,27 @@ enum COLORS {
 }
 
 COLORS.YELLOW
+
+enum os {
+  Window, //0
+  Mac, //1
+  Linux, //2
+}
+
+interface pc {
+  id: number;
+  osType: os;
+}
+
+const pc1: pc = {
+  id: 1,
+  osType: os.Window,
+};
+
+const pc2: pc = {
+  id: 2,
+  osType: os.Mac,
+};
+
+console.log(pc1);
+console.log(pc2);
