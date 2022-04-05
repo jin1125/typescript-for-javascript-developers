@@ -12,6 +12,6 @@ class Lion extends Animal {
 
 class Tiger extends Animal {
   cry() {
-    return ''
+    return 'grrr'
   }
 }
